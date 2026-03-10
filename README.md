@@ -54,7 +54,6 @@ Sign-Language-Translation
 │   ├── Sorry
 │   ├── Thank You
 │   └── Yes
-│
 ├── Model
 │   ├── keras_model.h5
 │   └── labels.txt
