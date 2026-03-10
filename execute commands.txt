@@ -1,0 +1,4 @@
+conda activate slt
+D:
+cd "D:\Sign Language Translation"
+python test.py
