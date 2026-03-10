@@ -18,12 +18,12 @@ A real-time hand gesture recognition system that translates basic sign language 
 - MediaPipe
 
 ## How it Works
-1. Webcam captures hand gestures in real time
-2. Hand is detected using cvzone hand tracking
-3. Image is cropped and preprocessed
-4. Preprocessed image is passed to the trained Keras model
-5. Model predicts the corresponding sign
-6. Predicted sign is displayed on the screen
+1. Webcam captures hand gestures in real time  
+2. Hand is detected using cvzone hand tracking  
+3. Image is cropped and preprocessed  
+4. Preprocessed image is passed to the trained Keras model  
+5. Model predicts the corresponding sign  
+6. Predicted sign is displayed on the screen  
 
 ## Supported Gestures
 - Hello
@@ -37,14 +37,19 @@ A real-time hand gesture recognition system that translates basic sign language 
 
 Install dependencies:
 
+```bash
 pip install -r requirements.txt
+```
 
 Run the translator:
 
+```bash
 python test.py
+```
 
 ## Project Structure
 
+```
 Sign-Language-Translation
 │
 ├── Data
@@ -54,6 +59,7 @@ Sign-Language-Translation
 │   ├── Sorry
 │   ├── Thank You
 │   └── Yes
+│
 ├── Model
 │   ├── keras_model.h5
 │   └── labels.txt
@@ -62,3 +68,4 @@ Sign-Language-Translation
 ├── test.py
 ├── requirements.txt
 └── README.md
+```
